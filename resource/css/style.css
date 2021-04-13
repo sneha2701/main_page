@@ -38,22 +38,23 @@ html{
 /*.......................Links.....................................*/
 
 .nav a:link, a:visited {
-  background-color:#ffff00;
+  background-color:#e0e0d1;
   color: black;
-  padding: 5px 5px;
+  padding: 2px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
     border-radius: 12px;
-    margin: 4px 2px;
-    border: 1px solid #ffff00;
-    width:120px;
- height:50px
+    margin: 3px 1.5px;
+    border: 1px solid #e0e0d1;
+    width:100px;
+ height:30px
 }
 
 .nav a:hover, a:active {
-  background-color:  #ffff99;
+  background-color: #ffff00;
 }
+
 
 .nav{
     position: absolute;
@@ -62,6 +63,35 @@ html{
     left: 5%;
     color: black;
 }
+
+/*.......................Login.....................................*/
+
+.loginfurni a:link, a:visited {
+  background-color:#e0e0d1;
+  color: black;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    border-radius: 12px;
+    margin: 3px 1.5px;
+    border: 1px solid #e0e0d1;
+    width:100px;
+ height:30px
+}
+
+.loginfurni a:hover, a:active {
+  background-color: #ffff00;
+}
+
+.loginfurni{
+    position: absolute;
+    top: 7%;
+    float: right;
+    right: 5%;
+    color: black;
+}
+
 
 /*.....................Header..................................*/
 
@@ -212,7 +242,46 @@ a{
     display: block;
 }
 
-/*......................................................Footer.........................*/
+/*......................................................ironFurni.........................*/
 
+#ironfurni{
+    width:200px;
+    height:100px%; 
+}
 
+.ironfurbtn {
+    float: right;
+      background: #000;
+      color: #fff;
+    padding: 4px 4px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+    border-radius: 12px;
+    margin: 3px 1.5px;
+    border: 1px solid #e0e0d1;
+    width:100px;
+   height:30px
+   }
+.ironfurbtn:hover {
+      background: #fff;
+      color: #000;
+   }
+.cost{
+     padding: 10px 4px;
+}
+
+/*.....................................LOGIN......................................................*/
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.login-form{
+    border: 1px;
+    background: #e0e0d1;
+    float: right;
+    top: 50px;
+    bottom: 50px;
+}
 
